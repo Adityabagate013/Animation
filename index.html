@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Page title</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            
+            height: 100vh;
+        }
+        .heartBeat{
+        align-content: center;
+        font-size: 10rem;
+         animation: heartBeat.5s infinite alternate linear;
+            transform: rotateZ(30);
+            
+        }
+        @keyframes heartBeat{
+            from{
+               transform: scale(.7); 
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="heartBeat">❤️</div>
+</body>
+</html>
